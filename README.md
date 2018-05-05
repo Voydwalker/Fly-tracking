@@ -18,3 +18,13 @@ In order to perform tracking with the current version please follow the followin
 5.Determine the tracks with Dster_cor.m
 
 Note: certain parameters are hard-coded and are derived from the test data.
+
+
+
+Dependencies:
+
+Hungarian Algorithm for reference
+https://de.mathworks.com/matlabcentral/fileexchange/20652-hungarian-algorithm-for-linear-assignment-problems--v2-3-
+
+Lens Distortion correction for reference
+https://de.mathworks.com/matlabcentral/fileexchange/37980-barrel-and-pincushion-lens-distortion-correction
