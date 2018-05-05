@@ -6,6 +6,7 @@ The files are part of my bachelor's thesis project aimed at tracking Drosophila 
 
 
 In order to perform tracking with the current version please follow the following steps.
+
 1.Camera stereo calibration with the Caltech Matlab calibration Toolbox.
 
 2.Calculate the camera matrces and use computeF.m to get the Fundamental matrix.
