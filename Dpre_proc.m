@@ -65,7 +65,7 @@ Det_right=zeros(0,3);
 
 for j=1:300 %while hasFrame(v5)&&hasFrame(v6) %get blobs and coords
     im1=rgb2gray(readFrame(v5));    %Make sure we take the grayvalues.
-    im1=imgaussfilt(im1,2);         %good to discuss why gauss works better than median in thesis :)
+    im1=imgaussfilt(im1,2);
     c1=convn(imcomplement(im1),h,'same');   %apply convolution, 'same' means overlay result over original.
     c1=im2bw(c1,0.05);                      %binarization with threshold.
     c1=bwareaopen(c1-bwareaopen(c1,160),10);    %filter only blobs between 10-160 pizel area.

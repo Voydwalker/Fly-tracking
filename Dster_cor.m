@@ -28,8 +28,7 @@ for i=1:fr-1
     
     
     %TODO
-    %here some of the a-elements is 0 and it leads to errors, all other
-    %cases are covered.
+    %replace the Nearest Neighbor approach with a Kalman Filter!
     
     %update tracks
     [~,sy]=size(a);
